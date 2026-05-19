@@ -7,6 +7,8 @@ html, body {
   overflow: hidden;
 }
 
+/*Styling voor de opmaak van de website*/
+
 body {
   background-color: rgb(174, 227, 227);
   display: grid;
@@ -52,9 +54,12 @@ h1 {
   border: 1px solid rgb(0, 174, 255);
 }
 
+/*Tekststyling */
+
 .maintext {
-  font-size: 24px;
+  font-size: 20px;
   color: rgb(0, 174, 255);
+  margin: 20px 0;
 }
 
 .footertext {
@@ -102,6 +107,7 @@ label {
   padding: 15px;
   cursor: pointer;
 }
+/*Media styling*/
 
 /* responsive */
 @media (max-width: 767px) {
@@ -128,6 +134,7 @@ label {
   input:checked + label::before {
     content: "✕";
   }
+/*Voet styling*/
 }
 footer {
   background: #566069;
